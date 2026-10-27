@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f7fa">
+  <meta name="description" content="Pumpy — тренировки из упражнений, которые нравятся тебе. Выбирай свайпами, записывай подходы и следи за прогрессом.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Pumpy — тренировки под тебя</title>
+  <link rel="icon" type="image/png" href="./icon-dumbbell-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icon-dumbbell-180.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app"><div class="loading"><span class="logo-mark">P</span><h1>Pumpy</h1><p>Загружаем твои тренировки…</p></div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="storage-error" role="alert" hidden></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden aria-label="Резервная копия Pumpy">
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>

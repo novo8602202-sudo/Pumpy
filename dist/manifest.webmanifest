@@ -1,0 +1,24 @@
+{
+  "name": "Pumpy — тренировки под тебя",
+  "short_name": "Pumpy",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7fa",
+  "theme_color": "#8c47f5",
+  "icons": [
+    {
+      "purpose": "any",
+      "src": "./icon-dumbbell-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "src": "./icon-dumbbell-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
